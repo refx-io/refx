@@ -1,0 +1,6 @@
+apiVersion: v2
+name: refx
+description: A Helm chart for refx application
+type: application
+version: 0.1.0
+appVersion: "1.16.0"

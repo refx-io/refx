@@ -1,0 +1,13 @@
+replicaCount: 2
+image:
+  repository: your-repo/refx
+  tag: latest
+containerPort: 8080
+servicePort: 80
+serviceType: ClusterIP
+ingress:
+  host: your.domain.com
+hpa:
+  minReplicas: 1
+  maxReplicas: 10
+  cpuUtilizationPercentage: 50
